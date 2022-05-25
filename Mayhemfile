@@ -1,0 +1,12 @@
+project: rnshah9/dislocker
+target: dislocker
+image: ghcr.io/rnshah9/playground:dislocker
+tests:
+  - file://.gitignore
+
+cmds:
+  # - cmd: /repo/build/src/dislocker-metadata -V @@
+  # - cmd: /repo/build/src/dislocker-metadata -v -V @@
+  # - cmd: /repo/build/src/dislocker-fuse -V @@
+    - cmd: /repo/build/src/dislocker-bek -f @@
+      filepath: /test.bek
