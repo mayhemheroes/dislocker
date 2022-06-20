@@ -1,8 +1,8 @@
-project: rnshah9/dislocker
+project: dislocker
 target: dislocker-bek
-tests:
+testsuite:
   - file://.gitignore
 
 cmds:
-    - cmd: /repo/build/src/dislocker-bek -f @@
+    - cmd: /repo/build/src/dislocker-bek -f /test.bek
       filepath: /test.bek
