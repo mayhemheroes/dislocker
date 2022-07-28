@@ -4,5 +4,4 @@ testsuite:
   - file://.gitignore
 
 cmds:
-    - cmd: /repo/build/src/dislocker-bek -f /test.bek
-      filepath: /test.bek
+    - cmd: /install/bin/dislocker-bek -f @@
