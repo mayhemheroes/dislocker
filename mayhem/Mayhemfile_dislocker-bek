@@ -1,0 +1,7 @@
+project: dislocker
+target: dislocker-bek
+testsuite:
+  - file://.gitignore
+
+cmds:
+    - cmd: /install/bin/dislocker-bek -f @@
