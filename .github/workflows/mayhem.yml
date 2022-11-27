@@ -51,7 +51,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_dislocker-bek
+          - mayhem/Mayhemfile_dis_crypt_new
 
     steps:
       - uses: actions/checkout@v2

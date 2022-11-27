@@ -1,0 +1,7 @@
+project: dislocker
+target: dis-crypt-new
+
+cmds:
+    - cmd: /fuzz_dis_crypt_new
+      env:
+        ASAN_OPTIONS: detect_leaks=0
