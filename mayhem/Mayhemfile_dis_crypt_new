@@ -1,0 +1,5 @@
+project: dislocker
+target: dis-crypt-new
+
+cmds:
+    - cmd: /mayhem/fuzz_dis_crypt_new
