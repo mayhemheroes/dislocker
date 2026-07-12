@@ -1,0 +1,5 @@
+project: dislocker
+target: dislocker-bek
+
+cmds:
+    - cmd: /mayhem/build/src/dislocker-bek -f @@
